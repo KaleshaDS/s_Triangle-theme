@@ -26,23 +26,6 @@ a {
   font-weight: 300;
   padding: 10px 25px; }
 
-#action .take-tour{
-  background-image: url(../images/home/tour-icon2.png);
-  width: 100%; 
-  background-color: gray;
-}
-#action .title{
-  background-image: url(../images/home/tour-bg.png);
-  float: left;
-  width: 100%;
-  height: 100px;
-}
-#action .col-sm-5 {
-  position: absolute;
-  top: 5;
-  height: 100%;
-  right: 0; }
-
 .btn-common:hover,
 .btn-common:focus {
   outline: none;
@@ -164,13 +147,18 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 200px;
+    height: 300px;
     position: relative;
     top: 100px;
   }
+
+  #home-slider .take-tour p{
+    position: relative;
+    bottom: 10px;
+  }
 #home-slider .slide-text{
     position: relative;
-    bottom: 80px;
+    bottom: 10px;
   }
 p{
     width: 400px;
@@ -182,7 +170,78 @@ p{
   #home-slider .slider-house{
    float: right;
    position: relative;
-   bottom: 170px;
+   bottom: 90px;
   }
+  #home-slider .slider-cloud2{
+  position: relative;
+  bottom: 300px;
+  left: 600px;
+}
 
+  #home-slider .slider-cloud1{
+    position: relative;
+    bottom: 200px;
+    left: 800px;
+  }
+  #home-slider .slider-cloud3{
+    position: relative;
+    bottom: 290px;
+    left: 750px;}
 
+#home-slider .slider-cycle{
+  position: relative;
+  left: 430px;
+  bottom: 120px;
+}
+#home-slider .slider-sun{
+  position: relative;
+  left: 500px;
+  bottom:300px;
+}
+#home-slider .slider-circle1{
+  position: relative;
+  left: 680px;
+  bottom:200px;
+  transform:rotate(- 85deg); 
+}
+
+#home-slider .slider-circle2{
+  position: relative;
+  left: 670px;
+  bottom:230px;
+  transform:rotate(- 85deg); 
+}
+
+#action .responsive{ 
+  background-image: url(../images/home/tour-bg.png);
+  width: 100%; 
+  height: 100px;
+  position: relative;
+  left: 20px;
+}
+#action .flat
+{
+  width: 450px;
+  height: 100px;
+}
+#action .col-sm-5 {
+  position: absolute;
+  top: 5;
+  height: 100%;
+  right: 0; }
+#action p{
+  position: relative;
+  bottom: 70px;
+}
+#action .btn{
+  position: relative;
+  right: 300px;
+  top: 50px;}
+#clients .buho {
+  position: relative;
+  left:500px;
+}
+#clients .buhop {
+  position: relative;
+  left: 370px;
+}
